@@ -1,0 +1,81 @@
+.chiffre {
+  font-family: lalezar, Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+
+  color: #ffade3;
+  margin-top: -40px;
+}
+.error {
+  font-family: lalezar, Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+
+  color: #ffade3;
+  margin-top: -100px;
+}
+
+.gogo {
+  font-family: lalezar, Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+
+  color: #ffade3;
+  margin-top: -65px;
+  margin-left: -10px;
+}
+.letsgo {
+  margin: 40px;
+  margin-top: 60px;
+  border: 2px solid #ffade4;
+  border-radius: 15px;
+  position: absolute;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.letsgo:hover {
+  background-image: linear-gradient(
+    #ffade4 50%,
+    #0c0623 80%
+  ); /* fond rouge au survol */
+
+  transform: scale(1.05); /* léger zoom */
+}
+.gogo h1:hover {
+  color: #0c0623; /* texte blanc au survol */
+}
+
+.gogo h1 {
+  margin: 20px !important;
+  margin-top: -20px !important;
+  margin-bottom: -20px !important;
+  font-size: 300px;
+  color: transparent;
+  background-image: linear-gradient(#ffade4 50%, #0c0623 80%);
+  background-clip: text;
+}
+
+.notfound {
+  margin-top: -360px;
+  margin-left: 330px;
+}
+
+.play {
+  margin-top: 290px;
+  margin-left: 50px;
+}
+h1 {
+  margin: 40px;
+  border: 0px;
+  font-size: 170px;
+  margin-left: 50px;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffff;
+  font-size: 30px;
+}
+body {
+  background-color: #0c0623;
+}
+a {
+  text-decoration: none;
+}
